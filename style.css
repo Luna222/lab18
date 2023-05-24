@@ -1,0 +1,54 @@
+.bg-img1 {
+  background-color: #000;
+  background-image: linear-gradient(
+      to right,
+      rgb(34, 34, 34, 0.6),
+      rgb(34, 34, 34, 0.6)
+    ),
+    url(./images/city.png);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img2 {
+  background-image: linear-gradient(
+      to right,
+      rgb(34, 34, 34, 0.6),
+      rgb(34, 34, 34, 0.6)
+    ),
+    url(./images/des-moines.jpeg);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img3 {
+  background-image: linear-gradient(
+      to right,
+      rgb(34, 34, 34, 0.6),
+      rgb(34, 34, 34, 0.6)
+    ),
+    url(./images/ocean.png);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .carousel-item {
+  height: 80vh;
+  background-color: #000;
+}
+
+#myCarousel .carousel-caption {
+  padding-bottom: 3.5rem;
+}
